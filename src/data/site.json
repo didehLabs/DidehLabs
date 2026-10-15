@@ -1,0 +1,107 @@
+{
+  "url": "https://www.didehlabs.com.ng",
+  "name": "didehLabs",
+  "title": "didehLabs | AI Growth Intelligence for Local Businesses",
+  "description": "didehLabs uses AI to find the website problems costing local businesses customers, then fixes them: speed, booking, trust, SEO and mobile.",
+  "tagline": "AI growth intelligence for local businesses",
+  "email": "okonjedidiah5@gmail.com",
+  "phone": "+2347042932301",
+  "whatsapp": "https://wa.me/2347042932301",
+  "address": {
+    "locality": "Lagos",
+    "region": "Lagos",
+    "country": "NG"
+  },
+  "founder": {
+    "name": "Jedidiah Okon",
+    "jobTitle": "Founder & Full-Stack Engineer",
+    "url": "https://jedidiahokon.netlify.app",
+    "sameAs": [
+      "https://jedidiahokon.netlify.app",
+      "https://github.com/okonjedidiah5",
+      "https://www.linkedin.com/in/jedidiah-okon-172095210"
+    ]
+  },
+  "services": [
+    {
+      "name": "Website Performance Fixes",
+      "description": "We find the bottlenecks that make pages slow and fix them so visitors stay."
+    },
+    {
+      "name": "Booking System Implementation",
+      "description": "Online booking and ordering so enquiries turn into appointments and sales."
+    },
+    {
+      "name": "Trust Signal Improvements",
+      "description": "Reviews, proof, clear services and secure browsing that earn customer confidence."
+    },
+    {
+      "name": "Local SEO Visibility",
+      "description": "Metadata, schema markup and local search readiness so nearby customers find you."
+    },
+    {
+      "name": "Mobile Experience Overhauls",
+      "description": "Rebuilding broken or clumsy mobile experiences so they work on every screen."
+    },
+    {
+      "name": "Conversion Funnel Repair",
+      "description": "Clear calls to action, WhatsApp and booking paths, and lead capture that works."
+    }
+  ],
+  "markets": [
+    "United Arab Emirates",
+    "United Kingdom",
+    "Canada",
+    "Australia",
+    "United States",
+    "Nigeria"
+  ],
+  "industries": [
+    "Private clinics",
+    "Dentists",
+    "Law firms",
+    "Accountants",
+    "Real estate agencies",
+    "HVAC",
+    "Plumbers",
+    "Electricians",
+    "Roofing",
+    "Remodeling",
+    "Locksmiths",
+    "Hair salons",
+    "Fitness studios",
+    "Bakeries",
+    "Coffee shops",
+    "Dog groomers"
+  ],
+  "faqs": [
+    {
+      "q": "What does didehLabs do?",
+      "a": "didehLabs is an AI growth intelligence studio for local businesses. Our engine finds the hidden problems on a business's website that cost it customers and revenue, such as slow pages, a broken mobile experience, missing booking paths and weak trust signals. Then our engineers fix them."
+    },
+    {
+      "q": "How does the website audit work?",
+      "a": "The engine audits the real website for speed, mobile experience, security, broken images and assets, booking and contact paths, and trust signals. It then explains what each problem is likely costing the business in lost bookings, lost trust and lost revenue."
+    },
+    {
+      "q": "What problems do you fix?",
+      "a": "We fix website performance, implement booking systems, improve trust signals, improve local SEO visibility, overhaul mobile experiences and repair conversion funnels."
+    },
+    {
+      "q": "Which businesses do you work with?",
+      "a": "Owner-run businesses that depend on local customers, including private clinics, dentists, law firms, accountants, real estate agencies, HVAC, plumbing, electrical, roofing and remodeling companies, locksmiths, hair salons, fitness studios, bakeries, coffee shops and dog groomers."
+    },
+    {
+      "q": "Which countries do you serve?",
+      "a": "Our engine currently scans businesses in the United Arab Emirates, United Kingdom, Canada, Australia, United States and Nigeria. We are based in Lagos, Nigeria, and work remotely."
+    },
+    {
+      "q": "Why might didehLabs contact my business?",
+      "a": "If we get in touch, it is by email or WhatsApp, and it is because our audit found something specific on your website. We show you what we found and what it may be costing you."
+    },
+    {
+      "q": "How do I find out what my website is costing me?",
+      "a": "Send us your website by email or on WhatsApp from the contact section. We respond within 24 hours."
+    }
+  ]
+}

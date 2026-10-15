@@ -1,0 +1,26 @@
+# didehLabs robots.txt
+# https://www.didehlabs.com.ng/
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.didehlabs.com.ng/sitemap.xml

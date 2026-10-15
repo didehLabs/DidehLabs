@@ -1,0 +1,4 @@
+Contact: mailto:okonjedidiah5@gmail.com
+Expires: 2027-10-14T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.didehlabs.com.ng/.well-known/security.txt

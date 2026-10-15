@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* DidehLabs corporate palette adapted from reference-ui - Gold replaced with Teal/Cyan */
+:root {
+  --background: #ffffff;
+  --foreground: #1e1e1e;
+  --card: #ffffff;
+  --card-foreground: #1e1e1e;
+  --popover: #ffffff;
+  --popover-foreground: #1e1e1e;
+  --primary: #0d9488; /* Teal */
+  --primary-foreground: #ffffff;
+  --secondary: #f3f5f7;
+  --secondary-foreground: #30454c;
+  --muted: #eef1f4;
+  --muted-foreground: #5a6570;
+  --accent: #30454c;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #fafafa;
+  --border: #dde3e8;
+  --input: #eef1f4;
+  --ring: #30454c;
+  --radius: 0.25rem;
+  --glow-primary: rgba(13, 148, 136, 0.12);
+  --navy: #30454c;
+  --navy-deep: #1e2a30;
+}
+
+.dark {
+  --background: #12161a;
+  --foreground: #eef1f4;
+  --card: #1a2026;
+  --card-foreground: #eef1f4;
+  --popover: #1a2026;
+  --popover-foreground: #eef1f4;
+  --primary: #61f0d2; /* Cyan/Teal */
+  --primary-foreground: #12161a;
+  --secondary: #252d35;
+  --secondary-foreground: #eef1f4;
+  --muted: #2a323a;
+  --muted-foreground: #9aa5ae;
+  --accent: #6d8494;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #fafafa;
+  --border: #343d47;
+  --input: #2a323a;
+  --ring: #61f0d2;
+  --glow-primary: rgba(97, 240, 210, 0.1);
+  --navy: #1e2a30;
+  --navy-deep: #121a20;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-inter);
+  --font-heading: var(--font-barlow);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 6px);
+  --color-navy: var(--navy);
+  --color-navy-deep: var(--navy-deep);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading tracking-tight;
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply border border-border/80 bg-white/90 shadow-sm backdrop-blur-md;
+  }
+
+  .dark .glass {
+    @apply border-white/[0.08] bg-white/[0.04];
+  }
+
+  .glass-panel {
+    @apply rounded-sm border border-border/60 bg-card/95 backdrop-blur-sm;
+  }
+
+  .btn-corporate {
+    @apply inline-flex items-center justify-center bg-primary px-6 py-3 text-sm font-semibold uppercase tracking-wide text-primary-foreground transition hover:bg-primary/90 cursor-pointer;
+  }
+
+  .btn-corporate-outline {
+    @apply inline-flex items-center justify-center border border-white bg-transparent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-white transition hover:bg-white/10 cursor-pointer;
+  }
+
+  .link-accent {
+    @apply font-semibold text-accent transition hover:text-foreground;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.22em] text-accent;
+  }
+
+  .section-y {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .section-ambient {
+    @apply pointer-events-none absolute inset-0 overflow-hidden;
+  }
+
+  .noise-overlay {
+    @apply pointer-events-none fixed inset-0 z-50 opacity-[0.015] mix-blend-multiply dark:opacity-[0.04] dark:mix-blend-overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float {
+    animation: none;
+  }
+}

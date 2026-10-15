@@ -1,0 +1,29 @@
+# didehLabs
+
+> didehLabs is an AI growth intelligence studio for local businesses. Our engine finds the hidden website problems that cost owner-run businesses customers and revenue, then our engineers fix them.
+
+## Pages
+
+- [Home](https://www.didehlabs.com.ng/): didehLabs uses AI to find the website problems costing local businesses customers, then fixes them: speed, booking, trust, SEO and mobile.
+- [Sitemap](https://www.didehlabs.com.ng/sitemap.xml): Machine-readable list of pages
+- [Full details for AI systems](https://www.didehlabs.com.ng/llms-full.txt): Services, markets, industries and FAQ
+
+## Services
+
+- Website Performance Fixes: We find the bottlenecks that make pages slow and fix them so visitors stay.
+- Booking System Implementation: Online booking and ordering so enquiries turn into appointments and sales.
+- Trust Signal Improvements: Reviews, proof, clear services and secure browsing that earn customer confidence.
+- Local SEO Visibility: Metadata, schema markup and local search readiness so nearby customers find you.
+- Mobile Experience Overhauls: Rebuilding broken or clumsy mobile experiences so they work on every screen.
+- Conversion Funnel Repair: Clear calls to action, WhatsApp and booking paths, and lead capture that works.
+
+## Markets
+
+United Arab Emirates, United Kingdom, Canada, Australia, United States, Nigeria
+
+## Contact
+
+- Website: https://www.didehlabs.com.ng/
+- Email: okonjedidiah5@gmail.com
+- WhatsApp: https://wa.me/2347042932301
+- Location: Lagos, Nigeria (remote-first)

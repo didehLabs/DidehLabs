@@ -1,0 +1,58 @@
+# didehLabs
+
+> didehLabs is an AI growth intelligence studio for local businesses. Our engine finds the hidden website problems that cost owner-run businesses customers and revenue, then our engineers fix them.
+
+## What we do
+
+The engine scans local businesses on Google Maps and business directories, audits their real websites, turns the findings into business language (lost bookings, lost trust, lost revenue), and ranks each opportunity. We reach owners by email or WhatsApp with what we found, follow up, and then fix the problems.
+
+## Services
+
+- Website Performance Fixes: We find the bottlenecks that make pages slow and fix them so visitors stay.
+- Booking System Implementation: Online booking and ordering so enquiries turn into appointments and sales.
+- Trust Signal Improvements: Reviews, proof, clear services and secure browsing that earn customer confidence.
+- Local SEO Visibility: Metadata, schema markup and local search readiness so nearby customers find you.
+- Mobile Experience Overhauls: Rebuilding broken or clumsy mobile experiences so they work on every screen.
+- Conversion Funnel Repair: Clear calls to action, WhatsApp and booking paths, and lead capture that works.
+
+## Industries
+
+Private clinics, Dentists, Law firms, Accountants, Real estate agencies, HVAC, Plumbers, Electricians, Roofing, Remodeling, Locksmiths, Hair salons, Fitness studios, Bakeries, Coffee shops, Dog groomers
+
+## Markets
+
+United Arab Emirates, United Kingdom, Canada, Australia, United States, Nigeria. Based in Lagos, Nigeria; work is remote-first.
+
+## Founder
+
+Jedidiah Okon, Founder & Full-Stack Engineer (https://jedidiahokon.netlify.app)
+
+## FAQ
+
+### What does didehLabs do?
+didehLabs is an AI growth intelligence studio for local businesses. Our engine finds the hidden problems on a business's website that cost it customers and revenue, such as slow pages, a broken mobile experience, missing booking paths and weak trust signals. Then our engineers fix them.
+
+### How does the website audit work?
+The engine audits the real website for speed, mobile experience, security, broken images and assets, booking and contact paths, and trust signals. It then explains what each problem is likely costing the business in lost bookings, lost trust and lost revenue.
+
+### What problems do you fix?
+We fix website performance, implement booking systems, improve trust signals, improve local SEO visibility, overhaul mobile experiences and repair conversion funnels.
+
+### Which businesses do you work with?
+Owner-run businesses that depend on local customers, including private clinics, dentists, law firms, accountants, real estate agencies, HVAC, plumbing, electrical, roofing and remodeling companies, locksmiths, hair salons, fitness studios, bakeries, coffee shops and dog groomers.
+
+### Which countries do you serve?
+Our engine currently scans businesses in the United Arab Emirates, United Kingdom, Canada, Australia, United States and Nigeria. We are based in Lagos, Nigeria, and work remotely.
+
+### Why might didehLabs contact my business?
+If we get in touch, it is by email or WhatsApp, and it is because our audit found something specific on your website. We show you what we found and what it may be costing you.
+
+### How do I find out what my website is costing me?
+Send us your website by email or on WhatsApp from the contact section. We respond within 24 hours.
+
+## Contact
+
+- Website: https://www.didehlabs.com.ng/
+- Email: okonjedidiah5@gmail.com
+- WhatsApp: https://wa.me/2347042932301
+- Location: Lagos, Nigeria (remote-first)
